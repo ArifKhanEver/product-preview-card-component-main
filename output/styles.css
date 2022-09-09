@@ -623,12 +623,6 @@ video {
   gap: 0.5rem;
 }
 
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -713,10 +707,6 @@ video {
 
 .pr-8 {
   padding-right: 2rem;
-}
-
-.pr-0 {
-  padding-right: 0px;
 }
 
 .font-mont {
