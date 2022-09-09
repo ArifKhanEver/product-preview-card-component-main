@@ -697,6 +697,18 @@ video {
   padding-right: 0.75rem;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
 .font-mont {
   font-family: 'Montserrat', sans-serif;
 }
