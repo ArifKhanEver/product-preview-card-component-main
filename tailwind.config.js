@@ -23,10 +23,10 @@ module.exports = {
         perfume: ".4em"
       },
       maxWidth: {
-        main : "548px"
+        main : "600px"
       },
       height: {
-        main: "410px"
+        main: "450px"
       }
     },
   },

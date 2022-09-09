@@ -579,20 +579,12 @@ video {
   height: 15rem;
 }
 
-.h-12 {
-  height: 3rem;
+.h-11 {
+  height: 2.75rem;
 }
 
 .h-4 {
   height: 1rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-11 {
-  height: 2.75rem;
 }
 
 .w-screen {
@@ -608,7 +600,7 @@ video {
 }
 
 .max-w-main {
-  max-width: 548px;
+  max-width: 600px;
 }
 
 .grid-cols-2 {
@@ -688,6 +680,21 @@ video {
 .py-11 {
   padding-top: 2.75rem;
   padding-bottom: 2.75rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .font-mont {
@@ -794,12 +801,12 @@ video {
     display: grid;
   }
 
-  .lg\:h-full {
-    height: 100%;
+  .lg\:h-main {
+    height: 450px;
   }
 
-  .lg\:h-main {
-    height: 410px;
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:place-content-center {
@@ -818,34 +825,16 @@ video {
     padding: 2rem;
   }
 
-  .lg\:p-9 {
-    padding: 2.25rem;
-  }
-
-  .lg\:pt-4 {
-    padding-top: 1rem;
+  .lg\:pt-2 {
+    padding-top: 0.5rem;
   }
 
   .lg\:pt-3 {
     padding-top: 0.75rem;
   }
 
-  .lg\:pt-2 {
-    padding-top: 0.5rem;
-  }
-
   .lg\:text-left {
     text-align: left;
-  }
-
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .lg\:text-xs {
@@ -853,19 +842,11 @@ video {
     line-height: 1rem;
   }
 
-  .lg\:leading-4 {
-    line-height: 1rem;
-  }
-
-  .lg\:leading-5 {
-    line-height: 1.25rem;
-  }
-
   .lg\:leading-7 {
     line-height: 1.75rem;
   }
 
-  .lg\:leading-6 {
-    line-height: 1.5rem;
+  .lg\:leading-5 {
+    line-height: 1.25rem;
   }
 }
